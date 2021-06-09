@@ -10,8 +10,8 @@ This project is used as an evolving best practice approach to multi-account, mul
 |[config/app.rb](config/app.rb)|Terraspace config and a mapping of AWS Account IDs to friendly names|
 |[config/terraform/global_variables.tf](config/terraform/global_variables.tf)|Declaration of global variables available to all Stacks|
 |[config/terraform/locals.tf](config/terraform/locals.tf)|Definition of Compound Scope Identifiers (CSI) and default tags available to all stacks|
-|[config/tfvars/base.tfvars](config/tfvars/base.tfvars)|Definition of global variables and injection of Terraspace variables|
-|[config/tfvars/account-dev.tfvars](config/tfvars/base.tf)|Example of account specific tfvars|
+|[config/terraform/tfvars/base.tfvars](config/terraform/tfvars/base.tfvars)|Definition of global variables and injection of Terraspace variables|
+|[config/terraform/tfvars/account-dev/base.tfvars](config/terraform/tfvars/account-dev/base.tfvars)|Example of account specific tfvars|
 |[app/stacks/base](app/stacks/base)|Example stack that has multi-environment configuration|
 
 ## Deploy
